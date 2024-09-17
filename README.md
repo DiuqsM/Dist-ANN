@@ -74,7 +74,6 @@ You would need your Github username and create a token (settings -> Developer se
     ```
     Then go to your browser to access http://localhost:8000/
 
-
 ## Example request-response
 
 List of backend API endpoints:
@@ -155,7 +154,8 @@ Example of a success response:
     ]
 }
 ```
-To use the measurement script: 
+
+## To use the measurement script: 
 ```
 cd measurement
 ```
