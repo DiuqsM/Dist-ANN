@@ -167,18 +167,18 @@ cd measurement
   ```
   pip install matplotlib
   ```
-  - Command: 
-    - To plot the CDF 
-    ```
-    python3 measure.py --num_requests <num_requests> --measure cdf
-    ```
-      The number_request can be any number you want to send the number of requests to the backend.
+- Command: 
+  - To plot the CDF 
+  ```
+  python3 measure.py --num_requests <num_requests> --measure cdf
+  ```
+    The number_request can be any number you want to send the number of requests to the backend.
 
-    - To plot the Load vs Latency  
-    ```
-    python3 measure.py --measure lead --load_levels <load_level1> <load_level2> ...
-    ```
-      The load levels can be 10 20 30 ... 
-      depending on how many loads you want to test and the amout of requests per load. 
+  - To plot the Load vs Latency  
+  ```
+  python3 measure.py --measure lead --load_levels <load_level1> <load_level2> ...
+  ```
+    The load levels can be 10 20 30 ... 
+    depending on how many loads you want to test and the amout of requests per load. 
 
- - The graphs are located in the measurement direcotry. Everytime you run the measurement, the new graph will replace the old graph. 
+- The graphs are located in the measurement direcotry. Everytime you run the measurement, the new graph will replace the old graph. 
